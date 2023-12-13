@@ -1,5 +1,6 @@
 import NavTabs from "./components/NavTabs"
 import ImageComponent from "./components/Header"
+import About from "./components/About"
 
 
 
@@ -10,6 +11,7 @@ function App() {
    <div>
       <NavTabs />
       <ImageComponent />
+      <About />
    </div>
   )
 }
