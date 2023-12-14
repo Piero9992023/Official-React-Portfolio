@@ -46,4 +46,5 @@ If the user clicks on the Contact Me navbar section then they will be presented 
   https://opensource.org/licenses/
 
   ## Links
-  https://github.com/Piero9992023/Official-React-Portfolio
+  Github Link: https://github.com/Piero9992023/Official-React-Portfolio
+  Deployed Link: https://pierocodes.netlify.app/
