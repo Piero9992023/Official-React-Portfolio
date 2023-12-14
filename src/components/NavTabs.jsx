@@ -60,7 +60,7 @@ const NavTabs = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-120}
                 duration={500}
                 onClick={() => setIsMenuOpen(false)}
               >
