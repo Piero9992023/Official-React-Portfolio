@@ -1,8 +1,9 @@
-import NavTabs from "./components/NavTabs"
-import ImageComponent from "./components/Header"
-import About from "./components/About"
-import Projects from "./components/Project"
-import Resume from "./components/Resume"
+import NavTabs from "./components/NavTabs";
+import ImageComponent from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Project";
+import Resume from "./components/Resume";
+import Form from "./components/Contact"
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projects />
       <Resume />
+      <Form />
    </div>
   )
 }
