@@ -11,7 +11,7 @@ const Projects = () => {
     
     return (
             <div>
-                <h1 className=' ml-8 mt-8 text-4xl'>Projects</h1>
+                <h1 className=' ml-8 mt-8 text-4xl font-bold'>Projects</h1>
             <div id= 'projects'className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 
                 <div className="space-y-8 md:grid md:grid-cols-2 auto-rows-max md:gap-12 md:space-y-0 ">

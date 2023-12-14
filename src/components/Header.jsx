@@ -80,7 +80,7 @@ function ImageComponent() {
             }}
           >
             {wordsArr.map((word, i) => (
-              <div className='bg-black bg-opacity-50 backdrop-blur-sm' key={i} style={{ display: i === currentWordIndex ? 'block' : 'none' }}>
+              <div className='bg-black rounded bg-opacity-50 backdrop-blur-sm text-6xl' key={i} style={{ display: i === currentWordIndex ? 'block' : 'none' }}>
                 {word}
               </div>
             ))}

@@ -2,6 +2,9 @@ import NavTabs from "./components/NavTabs"
 import ImageComponent from "./components/Header"
 import About from "./components/About"
 import Projects from "./components/Project"
+import Resume from "./components/Resume"
+
+
 
 
 
@@ -14,6 +17,7 @@ function App() {
       <ImageComponent />
       <About />
       <Projects />
+      <Resume />
    </div>
   )
 }
