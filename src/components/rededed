@@ -1,0 +1,41 @@
+<div className='flex'>
+      <div className="flex min-h-screen items-center justify-center bg-neutral-800 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:sahdow-black/30 transition-shadow">
+                <div className="h-60 w-900 object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+                    <img src={Employee} alt="Employee-Backend" />
+                </div>
+                <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'> </div>
+                <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'> 
+                    <h1 className='text-3xl font-bold text-white'>Employee Backend</h1>
+                    <p className='text-lg text-white mb-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300'> Created with MySql</p>
+                    <button className='rounded-full shadow shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
+                        Github 
+                    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div className="flex min-h-screen items-center justify-center bg-neutral-800">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:sahdow-black/30 transition-shadow">
+              <div className="h-48 w-900 object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+                  <img src={Comic} alt="Comic Quest" />
+              </div>
+              <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'> </div>
+              <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'> 
+                  <h1 className='text-3xl font-bold text-white'>Comic Quest</h1>
+                  <p className='text-lg text-white mb-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>MySql, Javascript, NPM Packages, CSS</p>
+                  <div className='flex'>
+                  <button className='mr-2 rounded-full shadow shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
+                      Github 
+                  </button>
+                  <button className='ml-2 rounded-full shadow shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>
+                      Deployment 
+                  </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
