@@ -74,10 +74,10 @@ const NavTabs = () => {
                 <Link onClick={() => setIsMenuOpen(false)} className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' to= "projects" spy={true} smooth={true} offset={-150} duration={500}>Projects</Link>
             </li>
             <li className='nav-item cursor-pointer'>
-                <Link onClick={() => setIsMenuOpen(false)} className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' to= "resume" spy={true} smooth={true} offset={-100} duration={500} >Resume</Link>
+                <Link onClick={() => setIsMenuOpen(false)} className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' to= "resume" spy={true} smooth={true} offset={-120} duration={500} >Resume</Link>
             </li>
             <li  className='nav-item cursor-pointer'>
-                <Link onClick={() => setIsMenuOpen(false)} className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' to= "contact" spy={true} smooth={true} offset={-100} duration={500}>Contact Me</Link>
+                <Link onClick={() => setIsMenuOpen(false)} className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' to= "contact" spy={true} smooth={true} offset={-110} duration={500}>Contact Me</Link>
             </li>
             </ul>
       </div>

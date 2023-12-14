@@ -58,8 +58,8 @@ function Form() {
 
       return (
     <div id='contact'>
-        <h1 className=' ml-8 mt-16 text-4xl font-bold'>Contact Me</h1>
-    <div className="flex justify-center items-center mt-20 mb-28 ">
+        <h1 className=' ml-8 mt-16 mb-11 text-4xl font-bold'>Contact Me</h1>
+    <div className="flex justify-center items-center mt-20 mb-32 ">
       <div className=" bg-gray-500 rounded-lg p-4">
         <h1 className="text-2xl font-bold mb-4 text-center">Hello {userName}</h1>
         <form className="form mx-auto" onSubmit={handleFormSubmit}>
