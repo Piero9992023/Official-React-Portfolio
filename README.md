@@ -2,7 +2,7 @@
 
 ## Description 
 
-My motivation behind creating this React portfolio was to showcase my newly learned React skills to any potiential employers. I built this project so that employers could have somewhere to go to learn about me, see my resume, and take a look at some of the projects that I have done. The specific problem that my React portfolio solves is that it can be factor to recruters to see I would be a right fit for their comapny. I have learnt many new things throughout the creation of my React portfolio, one of those things being that React is much easier to do compareed to vanilla Javascript.  
+My motivation behind creating this React portfolio was to showcase my newly learned React skills to any potiential employers. I built this project so that employers could have somewhere to go to learn about me, see my resume, and take a look at some of the projects that I have done. The specific problem that my React portfolio solves is that it can be factor to recruters to see I would be a right fit for their comapny. I have learnt many new things throughout the creation of my React portfolio, one of those things being that React is much easier to do compareed to vanilla Javascript. One important thing to also note is that this whole portfolio is reponsive and can used on smaller devices such as phones, tablets, and laptops.
 
 ## Installation 
 The first step was to create a project with vite. Once the vite project was created we needed to connect it to a git remote by creating a git repository and connecting it to the vite project so that I could do my git commands without a problem between the vite project and the Github repository. The thrid step was to npm install all the packages needed for my React portfolio. The npm packages that I have used were react, reeact-dom, reacter-router-dom, reeact-scroll, and tailwindcss for my styling. Before deploying to Netlify I needed to add the environment variables file called _redirects in the public folder since Netlify defaults to using the public folder I needed to redirect it to start in the index.html file with a status of 200. 
@@ -11,7 +11,7 @@ The first step was to create a project with vite. Once the vite project was crea
 
 # Home 
 
-Once the user opens my portfolio they will be presented with a navbar and a big pictures and words that transition every 8 seconds. If they are on Home section then that section will be hightlighted blue. One important thing to mention is everytime the user clicks on one of the navbar tabs then they will be scrolled down with smooth scrolling caused by the react-scroll npm package.  
+Once the user opens my portfolio they will be presented with a navbar and a big pictures and words that transition every 8 seconds. If they are on Home section then that section will be hightlighted blue. One important thing to mention is everytime the user clicks on one of the navbar tabs then they will be scrolled down with smooth scrolling caused by the react-scroll npm package. 
 
 ![Home Page](assets/Home.png)
 
