@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import image1 from './images/image1.jpeg';
 import image2 from './images/image2.avif';
 import image3 from './images/image3.jpeg';
@@ -55,7 +55,7 @@ function ImageComponent() {
         setCurrentWordIndex((prevWordIndex) =>
           (prevWordIndex + 1) % wordsArr.length
         );
-      }, 8000); // Display each word for 8 seconds before transitioning
+      }, 7000); // Display each word for 8 seconds before transitioning
     }, 8000); // Change image every 8 seconds
 
     return () => clearInterval(interval);

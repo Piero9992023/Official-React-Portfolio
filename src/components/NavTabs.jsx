@@ -1,4 +1,4 @@
-import React, { useEffect , useState } from 'react'
+import { useEffect , useState } from 'react'
 import { Link } from 'react-scroll'
 import '../index.css'
 
@@ -60,7 +60,7 @@ const NavTabs = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-140}
                 duration={500}
                 onClick={() => setIsMenuOpen(false)}
               >
